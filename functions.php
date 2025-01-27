@@ -11,11 +11,7 @@ function connect_to_db() {
         $pwd = '';
     } else {
         // さくらサーバー用の設定
-        $db_name = 'fuuu_balubo_db';
-        $db_host = 'mysql3104.db.sakura.ne.jp';
-        $user = 'fuuu_balubo_db';
-        $pwd = '134097Fu';
-        $dbn = "mysql:dbname={$db_name};charset=utf8;host={$db_host}";
+
     }
  
     try {
